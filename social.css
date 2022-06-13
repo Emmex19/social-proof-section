@@ -1,0 +1,261 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    line-height: 1.4;
+}
+
+
+.socialproof {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.userrating {
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.ur {
+    flex: 1;
+}
+
+h1.love {
+    line-height: normal;
+    padding-right: 200px;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+p.service {
+    padding-right: 150px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+span.stars {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+}
+
+span.stars:nth-child(2) {
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+span.stars:last-child {
+    margin-left: 100px;
+}
+
+.buyers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.buyer {
+    width: 310px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    font-weight: 400;
+    color: white;
+    padding: 35px 30px;
+}
+
+.buyer img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+}
+
+.irene {
+    margin-top: 30px;
+}
+
+.Anne {
+    margin-top: 60px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
